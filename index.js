@@ -6,7 +6,7 @@ const app = express()
 const PORT  = process.env.PORT ?? 8000
 
 app.get('/', (req, res) => {
-    return res.json({message: "server is healthy: github action integrated"})
+    return res.json({message: "server is healthy: github action integratedgit"})
 })
 
 
