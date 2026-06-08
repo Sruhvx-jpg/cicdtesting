@@ -1,3 +1,7 @@
+# shh
+private-key
+private-key.pub
+
 # Logs
 logs
 *.log
