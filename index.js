@@ -6,7 +6,8 @@ const app = express()
 const PORT  = process.env.PORT ?? 8000
 
 app.get('/', (req, res) => {
-    return res.json({message: "server is healthy"})
+    return res.json({message: "server is healthy: github action integrated"})
 })
+
 
 app.listen(PORT, () => console.log("server is running on PORT:", process.env.PORT))
